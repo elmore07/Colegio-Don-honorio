@@ -1,0 +1,31 @@
+main {
+  padding-top: 120px;
+}
+
+@media (min-width: 1024px) {
+  .scale-up:hover {
+    transform: scale(1.05);
+  }
+
+  .scale-up {
+    transition: transform 0.3s;
+  }
+}
+
+.text-link {
+  color: #000000;
+  text-decoration: none;
+}
+
+.text-link:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.color-instagram {
+  background: linear-gradient(45deg, #833ab4, #e1306c, #f77737);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  transition: color 0.3s ease;
+}
