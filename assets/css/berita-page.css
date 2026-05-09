@@ -33,6 +33,17 @@ body {
   margin-bottom: 50px;
 }
 
-.mvv {
-  margin-bottom: 50px;
+.sobre-nosotros {
+  margin-bottom: 70px;
+  text-align: justify;
+}
+
+/* EFECTO ZOOM */
+.scale-up {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.scale-up:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
