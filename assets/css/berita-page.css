@@ -38,6 +38,15 @@ body {
   text-align: justify;
 }
 
+.hero-section .container {
+  text-align: justify;
+  margin-bottom: 50px;
+}
+
+.img-fluid {
+ margin-bottom: 30px;
+}
+
 /* EFECTO ZOOM */
 .scale-up {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
