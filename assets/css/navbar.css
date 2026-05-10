@@ -82,3 +82,23 @@
   font-weight: 500;
   position: relative;
 }
+
+/* MENÚ MÓVIL */
+@media (max-width: 991px) {
+
+  .offcanvas {
+    background-color: #1E3A8A;
+  }
+
+  .offcanvas .link-nav {
+    color: white;
+  }
+
+  .offcanvas .offcanvas-title {
+    color: white;
+  }
+
+  .offcanvas .btn-close {
+    filter: invert(1);
+  }
+}
