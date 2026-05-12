@@ -7,29 +7,6 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-.hero-section {
-  position: relative;
-  height: 100vh;
-  background: url(../img/jurusan-dkv.avif) no-repeat center;
-  background-size: cover;
-  width: 100%;
-  overflow: hidden;
-}
-
-.hero-section::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-color: rgba(0, 0, 0, 0.6);
-  z-index: 0;
-}
-
-.hero-section .container {
-  position: relative;
-  z-index: 1;
-  height: 100%;
-}
-
 .text-justify {
   text-align: justify;
 }
@@ -48,17 +25,22 @@ body {
   );
 }
 
+.margin-all {
+  margin-top: 120px;
+  margin-bottom: 60px;
+}
+
 .img-rpl {
   height: 25.5rem;
   object-fit: cover;
 }
 
-@media (min-width: 1024px) {
-  .scale-up:hover {
-    transform: scale(1.05);
-  }
+/* EFECTO ZOOM */
+.scale-up {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
-  .scale-up {
-    transition: transform 0.3s;
-  }
+.scale-up:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
