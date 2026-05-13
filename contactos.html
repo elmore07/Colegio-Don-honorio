@@ -2,13 +2,56 @@
 <html lang="es">
 
 <head>
+  <!-- REQUIRED META TAGS -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
   <!--favicon-->
 
   <link rel="icon" type="image/png" href="assets/img/logodonhonorio2.png">
 
   <title>Centro Educativo Don Honorio</title>
+  <meta name="Centro Educativo Don Honorio"
+    content="Centro Educativo Don Honorio - Educando en valores a nuevas generaciones - Centro Educativo Don Honorio: educación inicial, primaria y secundaria enfocada en valores, disciplina y excelencia académica." />
+  <meta name="keywords"
+    content="colegio, educación, primaria, secundaria, inicial, Santo Domingo, Don Honorio, Republica Dominicana" />
+  <meta name="author" content="Velvet Code" />
+  <meta name="robots" content="index, follow" />
+  <!-- OPEN GRAPH / FACEBOOK / WHATSAPP -->
+  <meta property="og:locale" content="id_ID" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Centro Educativo Don Honorio" />
+  <meta property="og:description" content="Centro Educativo Don Honorio - Educando en valores a nuevas generaciones" />
+  <meta property="og:url" content="https://colegiodonhonorio.vercel.app/index.html" />
+  <meta property="og:site_name" content="Centro Educativo Don Honorio" />
+  <meta property="og:image" content="/assets/img/logodonhonorio2.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <!-- THEME COLOR FOR MOBILE BROWSER -->
+  <meta name="theme-color" content="#0055A4" />
+  <!-- STRUCTURED DATA (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    "name": "Centro Educativo Don Honorio",
+    "url": "https://colegiodonhonorio.vercel.app/index.html",
+    "logo": "/assets/img/logodonhonorio2.png",
+    "sameAs": [
+      "https://www.facebook.com/ColegioDonHonorio?locale=es_LA",
+      "https://www.instagram.com/colegio_donhonorio/"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Carretera Duarte Vieja no. 71 La Ceiba Altos de Arroyo Hondo, Santo Domingo Oeste",
+      "addressLocality": "República Dominicana",
+      "addressRegion": "Santo Domingo Oeste",
+      "postalCode": "10101",
+      "addressCountry": "DO"
+    }
+  }
+  </script>
   <!-- Montserrat font family - Can be changed to other Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -37,7 +80,7 @@
   <nav data-sal="slide-down" data-sal-duration="900" class="navbar navbar-expand-lg fixed-top shadow-lg">
     <div class="container">
       <a class="navbar-brand" href="index.html">
-        <img class="img" src="assets/img/logodonhonorio2.png" alt="Logo Don Honorio" width="50" height="50">
+        <img class="img" src="assets/img/logodonhonorio2.png" alt="Logo Don Honorio" width="85" height="85">
       </a>
       <button class="navbar-toggler pe-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
         aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -89,73 +132,75 @@
   <main>
 
     <!-- Contáctenos -->
-  <section class="py-5" id="contactos">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-md-6">
-          <div data-sal="zoom-in" class="card border-0 shadow scale-up">
-            <div class="card-body mb-3">
-              <h3 class="text-center">Contáctenos</h3>
-              <!-- Dirección -->
-              <div class="d-flex align-items-center mb-3">
-                <i class="bi bi-geo-alt text-danger fs-3 me-3"></i>
-                <div>
-                  <h6 class="mb-0">Dirección</h6>
-                  <a href="https://maps.app.goo.gl/bA76jrbmh3xNKuoa7"
-                    target="_blank" class="text-link">Carretera Duarte Vieja no. 71 La Ceiba Altos de Arroyo Hondo,
-                  Santo Domingo Oeste</a>
+    <section class="py-5" id="contactos">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <div data-sal="zoom-in" class="card border-0 shadow scale-up">
+              <div class="card-body mb-3">
+                <h3 class="text-center">Contáctenos</h3>
+                <!-- Dirección -->
+                <div class="d-flex align-items-center mb-3">
+                  <i class="bi bi-geo-alt text-danger fs-3 me-3"></i>
+                  <div>
+                    <h6 class="mb-0">Dirección</h6>
+                    <a href="https://maps.app.goo.gl/bA76jrbmh3xNKuoa7" target="_blank" class="text-link">Carretera
+                      Duarte Vieja no. 71 La Ceiba Altos de Arroyo Hondo,
+                      Santo Domingo Oeste</a>
+                  </div>
                 </div>
-              </div>
-              <!-- Whatsapp -->
-              <div class="d-flex align-items-center mb-3">
-                <i class="bi bi-whatsapp text-success fs-3 me-3"></i>
-                <div>
-                  <h6 class="mb-0">WhatsApp</h6>
-                  <a href="https://wa.me/+18297500151" target="_blank" class="text-link">(829) 750-0151</a>
+                <!-- Whatsapp -->
+                <div class="d-flex align-items-center mb-3">
+                  <i class="bi bi-whatsapp text-success fs-3 me-3"></i>
+                  <div>
+                    <h6 class="mb-0">WhatsApp</h6>
+                    <a href="https://wa.me/+18297500151" target="_blank" class="text-link">(829) 750-0151</a>
+                  </div>
                 </div>
-              </div>
-              <!-- Email -->
-              <div class="d-flex align-items-center mb-3">
-                <i class="bi bi-envelope text-dark fs-3 me-3"></i>
-                <div>
-                  <h6 class="mb-0">Correo</h6>
-                  <a href="mailto:cedonhonorio@gmail.com" target="_blank" class="text-link">cedonhonorio@gmail.com</a>
+                <!-- Email -->
+                <div class="d-flex align-items-center mb-3">
+                  <i class="bi bi-envelope text-dark fs-3 me-3"></i>
+                  <div>
+                    <h6 class="mb-0">Correo</h6>
+                    <a href="mailto:cedonhonorio@gmail.com" target="_blank" class="text-link">cedonhonorio@gmail.com</a>
+                  </div>
                 </div>
-              </div>
-              <!-- Instagram -->
-              <div class="d-flex align-items-center mb-3">
-                <i class="bi bi-instagram fs-3 me-3 color-instagram"></i>
-                <div>
-                  <h6 class="mb-0">Instagram</h6>
-                  <a href="https://www.instagram.com/colegio_donhonorio/" target="_blank" class="text-link">colegio_donhonorio</a>
+                <!-- Instagram -->
+                <div class="d-flex align-items-center mb-3">
+                  <i class="bi bi-instagram fs-3 me-3 color-instagram"></i>
+                  <div>
+                    <h6 class="mb-0">Instagram</h6>
+                    <a href="https://www.instagram.com/colegio_donhonorio/" target="_blank"
+                      class="text-link">colegio_donhonorio</a>
+                  </div>
                 </div>
-              </div>
-              <!-- Facebook -->
-              <div class="d-flex align-items-center mb-3">
-                <i class="bi bi-facebook text-primary fs-3 me-3"></i>
-                <div>
-                  <h6 class="mb-0">Instagram</h6>
-                  <a href="https://www.facebook.com/ColegioDonHonorio?locale=es_LA" target="_blank" class="text-link">Centro Educativo Don Honorio</a>
+                <!-- Facebook -->
+                <div class="d-flex align-items-center mb-3">
+                  <i class="bi bi-facebook text-primary fs-3 me-3"></i>
+                  <div>
+                    <h6 class="mb-0">Instagram</h6>
+                    <a href="https://www.facebook.com/ColegioDonHonorio?locale=es_LA" target="_blank"
+                      class="text-link">Centro Educativo Don Honorio</a>
+                  </div>
                 </div>
+                <!-- end -->
               </div>
-              <!-- end -->
             </div>
           </div>
-        </div>
 
-        <div class="col-md-6">
-          <div data-sal="zoom-in" class="ratio ratio-16x9 rounded-3 shadow scale-up">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.733897607863!2d-69.98982478893477!3d18.49570888252041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf8a43af1e5889%3A0x22b9ce981848ca2c!2sColegio%20Don%20Honorio!5e0!3m2!1ses-419!2sdo!4v1778308104807!5m2!1ses-419!2sdo"
-              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="col-md-6">
+            <div data-sal="zoom-in" class="ratio ratio-16x9 rounded-3 shadow scale-up">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.733897607863!2d-69.98982478893477!3d18.49570888252041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf8a43af1e5889%3A0x22b9ce981848ca2c!2sColegio%20Don%20Honorio!5e0!3m2!1ses-419!2sdo!4v1778308104807!5m2!1ses-419!2sdo"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
           </div>
-        </div>
 
+        </div>
       </div>
-    </div>
-  </section>
-  <!-- End Section -->
+    </section>
+    <!-- End Section -->
 
   </main>
 
@@ -163,14 +208,14 @@
   <section class="footer py-5">
     <footer class="mt-auto text-white pt-4 pb-4">
       <div class="container">
-        <div class="row">
+        <div class="row justify-content-center text-center text-md-start">
           <!-- Nombre y eslogan -->
-          <div class="col-md-3 mb-3">
+          <div class="col-md-3 mb-4 d-flex flex-column align-items-center align-items-md-start">
             <h5>Centro Educativo Don Honorio</h5>
             <p>Educando en valores a nuevas generaciones</p>
           </div>
           <!-- Ubicación y teléfono -->
-          <div class="col-md-3 mb-3">
+          <div class="col-md-3 mb-4 d-flex flex-column align-items-center align-items-md-start">
             <h5>Contactos</h5>
             <ul class="list-unstyled">
               <li class="nav-item">
@@ -194,7 +239,7 @@
           </div>
 
           <!-- School/Company Social Media -->
-          <div class="col-md-3 mb-3">
+          <div class="col-md-3 mb-4 d-flex flex-column align-items-center align-items-md-start">
             <h5>Redes Sociales</h5>
             <ul class="list-inline">
               <li class="list-inline-item"><a href="https://www.instagram.com/colegio_donhonorio/" target="_blank"

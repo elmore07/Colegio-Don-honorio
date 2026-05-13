@@ -2,13 +2,56 @@
 <html lang="es">
 
 <head>
+  <!-- REQUIRED META TAGS -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
   <!--favicon-->
 
   <link rel="icon" type="image/png" href="assets/img/logodonhonorio2.png">
 
   <title>Centro Educativo Don Honorio</title>
+  <meta name="Centro Educativo Don Honorio"
+    content="Centro Educativo Don Honorio - Educando en valores a nuevas generaciones - Centro Educativo Don Honorio: educación inicial, primaria y secundaria enfocada en valores, disciplina y excelencia académica." />
+  <meta name="keywords"
+    content="colegio, educación, primaria, secundaria, inicial, Santo Domingo, Don Honorio, Republica Dominicana" />
+  <meta name="author" content="Velvet Code" />
+  <meta name="robots" content="index, follow" />
+  <!-- OPEN GRAPH / FACEBOOK / WHATSAPP -->
+  <meta property="og:locale" content="id_ID" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Centro Educativo Don Honorio" />
+  <meta property="og:description" content="Centro Educativo Don Honorio - Educando en valores a nuevas generaciones" />
+  <meta property="og:url" content="https://colegiodonhonorio.vercel.app/index.html" />
+  <meta property="og:site_name" content="Centro Educativo Don Honorio" />
+  <meta property="og:image" content="/assets/img/logodonhonorio2.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <!-- THEME COLOR FOR MOBILE BROWSER -->
+  <meta name="theme-color" content="#0055A4" />
+  <!-- STRUCTURED DATA (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    "name": "Centro Educativo Don Honorio",
+    "url": "https://colegiodonhonorio.vercel.app/index.html",
+    "logo": "/assets/img/logodonhonorio2.png",
+    "sameAs": [
+      "https://www.facebook.com/ColegioDonHonorio?locale=es_LA",
+      "https://www.instagram.com/colegio_donhonorio/"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Carretera Duarte Vieja no. 71 La Ceiba Altos de Arroyo Hondo, Santo Domingo Oeste",
+      "addressLocality": "República Dominicana",
+      "addressRegion": "Santo Domingo Oeste",
+      "postalCode": "10101",
+      "addressCountry": "DO"
+    }
+  }
+  </script>
   <!-- Montserrat font family - Can be changed to other Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -28,7 +71,7 @@
   <!-- Footer CSS Custome -->
   <link rel="stylesheet" href="assets/css/footer.css" />
   <!-- Profile School/Company CSS -->
-  <link rel="stylesheet" href="assets/css/program-keahlian-dkv.css" />
+  <link rel="stylesheet" href="assets/css/slides.css" />
 </head>
 
 <body>
@@ -37,7 +80,7 @@
   <nav data-sal="slide-down" data-sal-duration="900" class="navbar navbar-expand-lg fixed-top shadow-lg">
     <div class="container">
       <a class="navbar-brand" href="index.html">
-        <img class="img" src="assets/img/logodonhonorio2.png" alt="Logo Don Honorio" width="50" height="50">
+        <img class="img" src="assets/img/logodonhonorio2.png" alt="Logo Don Honorio" width="85" height="85">
       </a>
       <button class="navbar-toggler pe-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
         aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -88,304 +131,269 @@
   <!-- End Navbar -->
   <main>
 
-<!-- Características del centro educativo -->
-<section class="margin-all py-5 bg-light">
-  <div class="container">
+    <!-- Características del centro educativo -->
+    <section class="margin-all py-5 bg-light">
+      <div class="container">
 
-    <h2 class="text-center mb-5 text-uppercase">
-      Características del centro educativo
-    </h2>
+        <h2 class="text-center mb-5 text-uppercase">
+          Características del centro educativo
+        </h2>
 
-    <div class="row align-items-center g-5">
+        <div class="row align-items-center g-5">
 
-      <!-- Carrusel -->
-      <div class="col-lg-6">
-        <div data-sal="slide-right" data-sal-duration="900">
+          <!-- Carrusel -->
+          <div class="col-lg-6">
+            <div data-sal="slide-right" data-sal-duration="900">
 
-          <div id="carouselFasilitas"
-            class="carousel slide carousel-fade shadow-lg rounded overflow-hidden"
-            data-bs-ride="carousel"
-            data-bs-interval="3500">
+              <div id="carouselFasilitas" class="carousel slide carousel-fade shadow-lg rounded overflow-hidden"
+                data-bs-ride="carousel" data-bs-interval="3500">
 
-            <!-- Indicadores -->
-            <div class="carousel-indicators">
+                <!-- Indicadores -->
+                <div class="carousel-indicators">
 
-              <button type="button"
-                data-bs-target="#carouselFasilitas"
-                data-bs-slide-to="0"
-                class="active"
-                aria-current="true"
-                aria-label="Slide 1">
-              </button>
+                  <button type="button" data-bs-target="#carouselFasilitas" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1">
+                  </button>
 
-              <button type="button"
-                data-bs-target="#carouselFasilitas"
-                data-bs-slide-to="1"
-                aria-label="Slide 2">
-              </button>
+                  <button type="button" data-bs-target="#carouselFasilitas" data-bs-slide-to="1" aria-label="Slide 2">
+                  </button>
 
-              <button type="button"
-                data-bs-target="#carouselFasilitas"
-                data-bs-slide-to="2"
-                aria-label="Slide 3">
-              </button>
+                  <button type="button" data-bs-target="#carouselFasilitas" data-bs-slide-to="2" aria-label="Slide 3">
+                  </button>
 
-              <button type="button"
-                data-bs-target="#carouselFasilitas"
-                data-bs-slide-to="3"
-                aria-label="Slide 4">
-              </button>
+                  <button type="button" data-bs-target="#carouselFasilitas" data-bs-slide-to="3" aria-label="Slide 4">
+                  </button>
 
-              <button type="button"
-                data-bs-target="#carouselFasilitas"
-                data-bs-slide-to="4"
-                aria-label="Slide 5">
-              </button>
+                  <button type="button" data-bs-target="#carouselFasilitas" data-bs-slide-to="4" aria-label="Slide 5">
+                  </button>
 
-              <button type="button"
-                data-bs-target="#carouselFasilitas"
-                data-bs-slide-to="5"
-                aria-label="Slide 6">
-              </button>
+                  <button type="button" data-bs-target="#carouselFasilitas" data-bs-slide-to="5" aria-label="Slide 6">
+                  </button>
 
-            </div>
-
-            <!-- Imágenes -->
-            <div class="carousel-inner">
-
-              <!-- Biblioteca -->
-              <div class="carousel-item active">
-                <img src="assets/img/biblioteca.jpg"
-                  class="d-block w-100 carousel-img"
-                  alt="Biblioteca escolar">
-
-                <div class="carousel-caption">
-                  <h5>Biblioteca Escolar</h5>
-                  <p>Espacios de lectura y aprendizaje para cada nivel educativo.</p>
                 </div>
-              </div>
 
-              <!-- Informática -->
-              <div class="carousel-item">
-                <img src="assets/img/informatica.jpg"
-                  class="d-block w-100 carousel-img"
-                  alt="Laboratorio de informática">
+                <!-- Imágenes -->
+                <div class="carousel-inner">
 
-                <div class="carousel-caption">
-                  <h5>Laboratorio de Informática</h5>
-                  <p>Equipado con herramientas tecnológicas modernas.</p>
+                  <!-- Biblioteca -->
+                  <div class="carousel-item active">
+                    <img src="assets/img/biblioteca.jpg" class="d-block w-100 carousel-img" alt="Biblioteca escolar">
+
+                    <div class="carousel-caption">
+                      <h5>Biblioteca Escolar</h5>
+                      <p>Espacios de lectura y aprendizaje para cada nivel educativo.</p>
+                    </div>
+                  </div>
+
+                  <!-- Informática -->
+                  <div class="carousel-item">
+                    <img src="assets/img/informatica.jpg" class="d-block w-100 carousel-img"
+                      alt="Laboratorio de informática">
+
+                    <div class="carousel-caption">
+                      <h5>Laboratorio de Informática</h5>
+                      <p>Equipado con herramientas tecnológicas modernas.</p>
+                    </div>
+                  </div>
+
+                  <!-- Ciencias -->
+                  <div class="carousel-item">
+                    <img src="assets/img/informatica2.avif" class="d-block w-100 carousel-img"
+                      alt="Laboratorio de ciencias">
+
+                    <div class="carousel-caption">
+                      <h5>Laboratorio de Ciencias</h5>
+                      <p>Aprendizaje práctico mediante experimentos y observación.</p>
+                    </div>
+                  </div>
+
+                  <!-- Psicología -->
+                  <div class="carousel-item">
+                    <img src="assets/img/deportivo.jpg" class="d-block w-100 carousel-img" alt="Área de psicología">
+
+                    <div class="carousel-caption">
+                      <h5>Área de Psicología</h5>
+                      <p>Acompañamiento emocional y orientación estudiantil.</p>
+                    </div>
+                  </div>
+
+                  <!-- Oficinas -->
+                  <div class="carousel-item">
+                    <img src="assets/img/biblioteca.jpg" class="d-block w-100 carousel-img"
+                      alt="Oficinas administrativas">
+
+                    <div class="carousel-caption">
+                      <h5>Oficinas Administrativas</h5>
+                      <p>Atención eficiente para padres y estudiantes.</p>
+                    </div>
+                  </div>
+
+                  <!-- Profesores -->
+                  <div class="carousel-item">
+                    <img src="assets/img/informatica.jpg" class="d-block w-100 carousel-img" alt="Salón de profesores">
+
+                    <div class="carousel-caption">
+                      <h5>Salón de Profesores</h5>
+                      <p>Espacio de planificación y trabajo colaborativo docente.</p>
+                    </div>
+                  </div>
+
                 </div>
-              </div>
 
-              <!-- Ciencias -->
-              <div class="carousel-item">
-                <img src="assets/img/informatica2.avif"
-                  class="d-block w-100 carousel-img"
-                  alt="Laboratorio de ciencias">
+                <!-- Botón anterior -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselFasilitas"
+                  data-bs-slide="prev">
 
-                <div class="carousel-caption">
-                  <h5>Laboratorio de Ciencias</h5>
-                  <p>Aprendizaje práctico mediante experimentos y observación.</p>
-                </div>
-              </div>
+                  <span class="carousel-control-prev-icon"></span>
 
-              <!-- Psicología -->
-              <div class="carousel-item">
-                <img src="assets/img/deportivo.jpg"
-                  class="d-block w-100 carousel-img"
-                  alt="Área de psicología">
+                  <span class="visually-hidden">
+                    Anterior
+                  </span>
+                </button>
 
-                <div class="carousel-caption">
-                  <h5>Área de Psicología</h5>
-                  <p>Acompañamiento emocional y orientación estudiantil.</p>
-                </div>
-              </div>
+                <!-- Botón siguiente -->
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselFasilitas"
+                  data-bs-slide="next">
 
-              <!-- Oficinas -->
-              <div class="carousel-item">
-                <img src="assets/img/biblioteca.jpg"
-                  class="d-block w-100 carousel-img"
-                  alt="Oficinas administrativas">
+                  <span class="carousel-control-next-icon"></span>
 
-                <div class="carousel-caption">
-                  <h5>Oficinas Administrativas</h5>
-                  <p>Atención eficiente para padres y estudiantes.</p>
-                </div>
-              </div>
+                  <span class="visually-hidden">
+                    Siguiente
+                  </span>
+                </button>
 
-              <!-- Profesores -->
-              <div class="carousel-item">
-                <img src="assets/img/informatica.jpg"
-                  class="d-block w-100 carousel-img"
-                  alt="Salón de profesores">
-
-                <div class="carousel-caption">
-                  <h5>Salón de Profesores</h5>
-                  <p>Espacio de planificación y trabajo colaborativo docente.</p>
-                </div>
               </div>
 
             </div>
+          </div>
+          <!-- Fin carrusel -->
 
-            <!-- Botón anterior -->
-            <button class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselFasilitas"
-              data-bs-slide="prev">
+          <!-- Características -->
+          <div class="col-lg-6">
 
-              <span class="carousel-control-prev-icon"></span>
+            <div data-sal="slide-up" data-sal-duration="900" class="card border-0 shadow-lg scale-up rounded-4">
 
-              <span class="visually-hidden">
-                Anterior
-              </span>
-            </button>
+              <div class="card-body p-4">
 
-            <!-- Botón siguiente -->
-            <button class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselFasilitas"
-              data-bs-slide="next">
+                <ul class="list-unstyled">
 
-              <span class="carousel-control-next-icon"></span>
+                  <!-- Laboratorio informática -->
+                  <li class="d-flex mb-4 feature-item">
+                    <i class="bi bi-pc-display-horizontal text-primary fs-2 me-3"></i>
 
-              <span class="visually-hidden">
-                Siguiente
-              </span>
-            </button>
+                    <div>
+                      <h5 class="fw-bold mb-1">
+                        Laboratorio de Informática
+                      </h5>
+
+                      <p class="mb-0 text-muted">
+                        Espacio equipado con computadoras y herramientas tecnológicas para fortalecer el aprendizaje
+                        digital.
+                      </p>
+                    </div>
+                  </li>
+
+                  <!-- Ciencias -->
+                  <li class="d-flex mb-4 feature-item">
+                    <i class="bi bi-funnel text-success fs-2 me-3"></i>
+
+                    <div>
+                      <h5 class="fw-bold mb-1">
+                        Laboratorio de Ciencias
+                      </h5>
+
+                      <p class="mb-0 text-muted">
+                        Área destinada a prácticas científicas y experimentos educativos.
+                      </p>
+                    </div>
+                  </li>
+
+                  <!-- Biblioteca -->
+                  <li class="d-flex mb-4 feature-item">
+                    <i class="bi bi-book text-danger fs-2 me-3"></i>
+
+                    <div>
+                      <h5 class="fw-bold mb-1">
+                        Biblioteca por Grado
+                      </h5>
+
+                      <p class="mb-0 text-muted">
+                        Recursos de lectura y consulta adaptados a cada nivel académico.
+                      </p>
+                    </div>
+                  </li>
+
+                  <!-- Psicología -->
+                  <li class="d-flex mb-4 feature-item">
+                    <i class="bi bi-heart-pulse text-warning fs-2 me-3"></i>
+
+                    <div>
+                      <h5 class="fw-bold mb-1">
+                        Área de Psicología
+                      </h5>
+
+                      <p class="mb-0 text-muted">
+                        Acompañamiento emocional, orientación y apoyo integral a estudiantes.
+                      </p>
+                    </div>
+                  </li>
+
+                  <!-- Oficinas -->
+                  <li class="d-flex mb-4 feature-item">
+                    <i class="bi bi-building text-info fs-2 me-3"></i>
+
+                    <div>
+                      <h5 class="fw-bold mb-1">
+                        Oficinas Administrativas
+                      </h5>
+
+                      <p class="mb-0 text-muted">
+                        Espacios organizados para la dirección y secretaría del centro educativo.
+                      </p>
+                    </div>
+                  </li>
+
+                  <!-- Profesores -->
+                  <li class="d-flex feature-item">
+                    <i class="bi bi-people-fill text-secondary fs-2 me-3"></i>
+
+                    <div>
+                      <h5 class="fw-bold mb-1">
+                        Salón de Profesores
+                      </h5>
+
+                      <p class="mb-0 text-muted">
+                        Área destinada al descanso, planificación y colaboración docente.
+                      </p>
+                    </div>
+                  </li>
+
+                </ul>
+
+              </div>
+            </div>
 
           </div>
+          <!-- Fin características -->
 
         </div>
       </div>
-      <!-- Fin carrusel -->
-
-      <!-- Características -->
-      <div class="col-lg-6">
-
-        <div data-sal="slide-up"
-          data-sal-duration="900"
-          class="card border-0 shadow-lg scale-up rounded-4">
-
-          <div class="card-body p-4">
-
-            <ul class="list-unstyled">
-
-              <!-- Laboratorio informática -->
-              <li class="d-flex mb-4 feature-item">
-                <i class="bi bi-pc-display-horizontal text-primary fs-2 me-3"></i>
-
-                <div>
-                  <h5 class="fw-bold mb-1">
-                    Laboratorio de Informática
-                  </h5>
-
-                  <p class="mb-0 text-muted">
-                    Espacio equipado con computadoras y herramientas tecnológicas para fortalecer el aprendizaje digital.
-                  </p>
-                </div>
-              </li>
-
-              <!-- Ciencias -->
-              <li class="d-flex mb-4 feature-item">
-                <i class="bi bi-funnel text-success fs-2 me-3"></i>
-
-                <div>
-                  <h5 class="fw-bold mb-1">
-                    Laboratorio de Ciencias
-                  </h5>
-
-                  <p class="mb-0 text-muted">
-                    Área destinada a prácticas científicas y experimentos educativos.
-                  </p>
-                </div>
-              </li>
-
-              <!-- Biblioteca -->
-              <li class="d-flex mb-4 feature-item">
-                <i class="bi bi-book text-danger fs-2 me-3"></i>
-
-                <div>
-                  <h5 class="fw-bold mb-1">
-                    Biblioteca por Grado
-                  </h5>
-
-                  <p class="mb-0 text-muted">
-                    Recursos de lectura y consulta adaptados a cada nivel académico.
-                  </p>
-                </div>
-              </li>
-
-              <!-- Psicología -->
-              <li class="d-flex mb-4 feature-item">
-                <i class="bi bi-heart-pulse text-warning fs-2 me-3"></i>
-
-                <div>
-                  <h5 class="fw-bold mb-1">
-                    Área de Psicología
-                  </h5>
-
-                  <p class="mb-0 text-muted">
-                    Acompañamiento emocional, orientación y apoyo integral a estudiantes.
-                  </p>
-                </div>
-              </li>
-
-              <!-- Oficinas -->
-              <li class="d-flex mb-4 feature-item">
-                <i class="bi bi-building text-info fs-2 me-3"></i>
-
-                <div>
-                  <h5 class="fw-bold mb-1">
-                    Oficinas Administrativas
-                  </h5>
-
-                  <p class="mb-0 text-muted">
-                    Espacios organizados para la dirección y secretaría del centro educativo.
-                  </p>
-                </div>
-              </li>
-
-              <!-- Profesores -->
-              <li class="d-flex feature-item">
-                <i class="bi bi-people-fill text-secondary fs-2 me-3"></i>
-
-                <div>
-                  <h5 class="fw-bold mb-1">
-                    Salón de Profesores
-                  </h5>
-
-                  <p class="mb-0 text-muted">
-                    Área destinada al descanso, planificación y colaboración docente.
-                  </p>
-                </div>
-              </li>
-
-            </ul>
-
-          </div>
-        </div>
-
-      </div>
-      <!-- Fin características -->
-
-    </div>
-  </div>
-</section>
-<!-- End Section -->
+    </section>
+    <!-- End Section -->
   </main>
 
   <!-- FOOTER -->
   <section class="footer py-5">
     <footer class="mt-auto text-white pt-4 pb-4">
       <div class="container">
-        <div class="row">
+        <div class="row justify-content-center text-center text-md-start">
           <!-- Nombre y eslogan -->
-          <div class="col-md-3 mb-3">
+          <div class="col-md-3 mb-4 d-flex flex-column align-items-center align-items-md-start">
             <h5>Centro Educativo Don Honorio</h5>
             <p>Educando en valores a nuevas generaciones</p>
           </div>
           <!-- Ubicación y teléfono -->
-          <div class="col-md-3 mb-3">
+          <div class="col-md-3 mb-4 d-flex flex-column align-items-center align-items-md-start">
             <h5>Contactos</h5>
             <ul class="list-unstyled">
               <li class="nav-item">
@@ -409,7 +417,7 @@
           </div>
 
           <!-- School/Company Social Media -->
-          <div class="col-md-3 mb-3">
+          <div class="col-md-3 mb-4 d-flex flex-column align-items-center align-items-md-start">
             <h5>Redes Sociales</h5>
             <ul class="list-inline">
               <li class="list-inline-item"><a href="https://www.instagram.com/colegio_donhonorio/" target="_blank"

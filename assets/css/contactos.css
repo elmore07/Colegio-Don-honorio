@@ -2,14 +2,14 @@ main {
   padding-top: 120px;
 }
 
-@media (min-width: 1024px) {
-  .scale-up:hover {
-    transform: scale(1.05);
-  }
+/* EFECTO ZOOM */
+.scale-up {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
-  .scale-up {
-    transition: transform 0.3s;
-  }
+.scale-up:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
 
 .text-link {
